@@ -1,0 +1,444 @@
+html {
+    scroll-behavior: smooth;
+}
+body,* {
+    padding: 0;
+    margin: 0;
+    background: #f3f3f3;
+}
+nav {
+    background: #f3f3f3;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: sticky;
+    top: 0;
+
+}
+.logo {
+    padding: 15px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+.navigation {
+    padding: 25px 0px;
+    display: flex;
+    top: 0;
+    position: sticky;
+}
+.navigation li {
+    list-style: none;
+    padding: 0px 15px;
+}
+.navigation li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #7a7a7a;
+    padding: 5px;
+}
+.navigation li a:hover {
+    color: #014325;
+    transition: 0.5s;
+}
+.search-item {
+    padding: 23px 50px;
+    display: flex;
+}
+a.search-input {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 20px;
+}
+a.cart-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 20px; 
+}
+
+/* Heading */
+.heading {
+    padding: 160px 100px;
+}
+h1.find {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    color: #014325;
+    font-weight: 300;
+}
+h1.home {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    color: #014325;
+    font-weight: 300;
+    line-height: 1;
+}
+p.plants {
+    color: #616161;
+    line-height: 5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+button.shop {
+    width: 15%;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background: #000000;
+    color: #f3f3f3;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+button.shop:hover {
+    background: #f3f3f3;
+    color: #000000;
+    transition: 0.5s;
+}
+img.caffe {
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 62%;
+    margin-top: -50%;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+/* Categories*/
+.categories {
+    background: #f3f3f3;
+    padding: 110px 0px;
+}
+h1.item-heading {
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #000000;
+}
+.image-categories {
+    margin-left: 3%;
+    background: #f3f3f3;
+    justify-content: space-between;
+    display: inline-block;
+}
+.categories-jungle {
+    margin-top: -50px;
+    margin-left: 11%;
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+}
+.categories-jungle img {
+    width: 100%;
+    border-radius: 10px;
+}
+.categories-outdoor {
+    margin-top: -49.2%;
+    margin-left: 50%;
+    width: 30%;
+}
+.categories-outdoor img {
+    width: 100%;
+    border-radius: 10px;
+}
+.categories-bedroom {
+    margin-top: -49.2%;
+    margin-left: 89%;
+    width: 30%;
+}
+.categories-bedroom img {
+    width: 100%;
+    border-radius: 10px;
+}
+.categories-indoor {
+    margin-top: -49.2%;
+    margin-left: 128%;
+    width: 30%;
+}
+.categories-indoor img {
+    width: 100%;
+    border-radius: 10px;
+}
+h2.content {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Love heading */
+.love {
+    margin-top: 5%;
+}
+h2.work {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+h2.sunshine {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Featured heading */
+.featured {
+    padding: 160px 100px;
+    margin-top: -9%;
+}
+h2.organic {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 2;
+    color: #000000;
+}
+p.item-organic {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #616161;
+    font-weight: 300;
+}
+button.favorites {
+    margin-top: 3%;
+    height: 35px;
+    border-radius: 5px;
+    width: 9%;
+    color: #f3f3f3;
+    background: #000000;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 900;
+    cursor: pointer;
+}
+button.favorites:hover {
+    background: #f3f3f3;
+    color: #000000;
+    transition: 0.5s;
+}
+/* Featured Price */
+.plants-price {
+    left: 0;
+}
+.plant-one {
+    margin-top: -23.8%;
+    margin-left: 30%;
+    width: 20%;
+    height: auto;
+}
+.plant-one img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.plant-two {
+    margin-top: -33.6%;
+    margin-left: 51%;
+    width: 20%;
+}
+.plant-two img {
+    width: 100%;
+    border-radius: 5px;
+}
+.plant-three {
+    margin-top: -33.6%;
+    margin-left: 72%;
+    width: 20%;
+}
+.plant-three img {
+    width: 100%;
+    border-radius: 5px;
+}
+h2.bird {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #616161;
+}
+p.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.mail-item {
+    margin-top: 10%;
+    margin-left: 9%;
+}
+.rowe {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.rowe img {
+    width: 100%;
+    border-radius: 5px;
+}
+p.edition {
+    color: #c0c0c0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 3;
+    font-weight: 600;
+}
+h2.melisa-bail {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+    color: #000000;
+}
+
+/* Subscribe */
+.subscribe {
+    margin-top: 10%;
+    text-align: center;
+}
+h2.subscribe-item {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    color: #000000;
+}
+h2.newsletter {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+}
+
+input {
+    margin-top: 2%;
+    margin-left: -12%;
+    width: 25%;
+    padding: 20px;
+    opacity: 5;
+    font-weight: 500;
+    color: #5d5d5d;
+    border-color: transparent;
+    background: #dfdfdfea;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+    appearance: none;
+    z-index: 1;
+}
+.btn-subs {
+    margin-top: -2%;
+    margin-left: 25.2%;
+}
+button.item-email {
+    text-transform: uppercase;
+    margin-top: -2%;
+    width: 14%;
+    padding: 12px;
+    background: #000000;
+    color: #f3f3f3;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    outline: none;
+    appearance: none;
+}
+input, button.item-email {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+/* Footer */
+footer {
+    background: #f3f3f3;
+    padding: 90px 0px;
+    max-height: 99px;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10%;
+}
+.footer-item {
+    padding: 0px 80px;
+    flex-wrap: wrap;
+}
+.footer-item h3 {
+    font-size: 16px;
+    color: #616166;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+}
+.footer-item li {
+    list-style: none;
+}
+.footer-item li a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    color: #000000;
+}
+.footer-item li a:hover {
+    transition: 0.5s;
+    color: #014325;
+}
+h3.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px 0px;
+    color: #000000;
+}
+select {
+    margin-top: 0.3%;
+    margin-left: 10%;
+    height: 30px;
+    width: 6%;
+    background: #dfdfdfea;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    outline: none;
+    z-index: 1;
+    border-color: transparent;
+}
+option {
+    background: #dfdfdfea;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    z-index: 1;
+    border-color: transparent;
+}
+.fixed-footer {
+    margin-top: 5%;
+    padding: 50px 0px;
+}
+p.design {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #d0cece;
+    font-weight: 600;
+}
